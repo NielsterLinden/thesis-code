@@ -1,12 +1,23 @@
+# Data files
+*.h5
+*.hdf5
+*.csv
+*.pkl
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+# Python
 __pycache__/
-*.pyc
-.ipynb_checkpoints/
+*.py[cod]
+*$py.class
+
+# Virtual Environment
+venv/
+env/
+.env/
+
+# IDE
 .vscode/
-.env
-.env.*
-# data / models (add later if you use these)
-data/
-models/
-reports/figures/
-.venv/
-4tops_splitted.h5
+.idea/
