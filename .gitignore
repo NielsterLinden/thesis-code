@@ -8,3 +8,5 @@ __pycache__/
 data/
 models/
 reports/figures/
+.venv/
+4tops_splitted.h5
